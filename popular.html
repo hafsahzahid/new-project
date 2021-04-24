@@ -1,0 +1,574 @@
+<html>
+<head>
+
+<link rel="icon" href="logo.ico" type="image/ico">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOODPOINT.</title>
+
+<style>
+*
+{
+margin: 0;
+padding: 0;
+
+}
+
+#menu ul
+{
+ list-style:none;
+}
+
+#menu ul li
+{
+background-color:purple;
+border: 1.8px solid white;
+width: 263.6px;
+height: 49px;
+text-align: center;
+line-height:46px;
+float: left;
+margin-top:0;
+}
+
+#menu ul li a
+{
+text-decoration:none;
+color: white;
+display: block;
+}
+
+#menu ul li a:hover
+{
+background-color:#4C0A52 ;
+}
+
+.zoom
+{
+transition:transform 0.5s;
+}
+.zoom:hover
+{
+transform:scale(1.1);
+}
+.top_rat
+{
+border: 0px solid black;
+display: flex;
+height: auto;
+justify-content: space-around;
+align-items:center;
+}
+
+.top_rat_pro{
+margin-top: 15px;
+margin-bottom: 15px;
+spacing: 20px;
+border: 1px solid purple;
+width:380px;
+height:290px;
+float:left;
+box-shadow: 0 3px 7px 0 rgba(0,0,0,0.2), 0 5px 18px 0 rgba(0,0,0,0.25);
+transition:transform 0.7s;
+}
+
+.top_rat_pro:hover
+{
+transform:scale(1.1);
+}
+
+.checked
+{
+color: orange;
+
+}
+
+.starr
+{
+border: 0px solid black;
+width:100%;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.title p
+{
+border: 0px solid black;
+display: flex;
+height: 8px;
+font-size: 18px;
+justify-content: center;
+align-items: center;
+}
+
+.title b
+{
+color:purple;
+}
+
+
+.footer
+{
+height: 310px;
+width: 100%;
+background-color: purple;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.footerb
+{
+height: 240px;
+width: 320px;
+float: left;
+margin-top: 40px;
+margin-bottom: 40px;
+color: white;
+text-align: center;
+}
+
+.check
+{
+color: white;
+font-size: 25px;
+width: 20px;
+text-align: center;
+padding: 24px;
+ margin: 6px 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+height: 90%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 90%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+.btn
+{
+ border: 0px solid purple;
+height: 46px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn input
+{
+height: 50px;
+width: 120px;
+border-radius: 7px;
+border:0;
+background-color: orange;
+font-size: 15px;
+
+}
+.btn input:hover
+{
+background-color: black;
+color:orange;
+}
+
+.back
+{
+color: white;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<div id="menu">
+<ul>
+  <li><a class="active" href="project website.html">FOODPOINT.</a></li>
+  <li><a href="trending.html">TRENDING</a></li>
+  <li><a href="popular.html">POPULAR</a></li>
+  <li><a href="desserts.html">DESSERTS</a></li>
+  <li><a href="sign up.html">SIGN UP</a></li>
+  <li><a href="order.html">ORDER</a></li>
+</ul>
+
+</div>
+
+
+<br><br>
+<br><br><h1 align="center">POPULAR</h1>
+
+<br><div class="top_rat">
+<div class="top_rat_pro">
+<div class="container">
+<img src="Chicken-Burgers.jpg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</div>
+
+<div class="title">
+<p>Chicken Burger :<b>310/-</b></p>
+</div>
+  
+</div>
+
+</div>
+
+
+<div class="top_rat_pro">
+<div class="container">
+<img src="Ebutter-chicken.jpeg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</div>
+
+<div class="title">
+<p>Easy butter chicken :<b>250/-</b></p>
+</div>
+</div>
+</div>
+
+<div class="top_rat_pro">
+<div class="container">
+<img src="savoury-mince.jpeg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</div>
+
+<div class="title">
+<p>Savoury Mince :<b>300/-</b></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="top_rat">
+   <div class="top_rat_pro">
+<div class="container">
+<img src="drumstick.jpg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</div>
+
+<div class="title">
+<p>Drumstick :<b>230/-</b></p>
+</div>
+</div>
+</div>
+
+<div class="top_rat_pro">
+<div class="container">
+<img src="paratha.jpg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</div>
+
+<div class="title">
+<p>Paratha :<b>150/-</b></p>
+</div>
+</div>
+</div>
+
+<div class="top_rat_pro">
+<div class="container">
+<img src="chinese.jpg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</div>
+
+<div class="title">
+<p>Chinese :<b>210/-</b></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="top_rat">
+<div class="top_rat_pro">
+<div class="container">
+<img src="beef-burger.jpg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</div>
+
+<div class="title">
+<p>Beef Burger :<b>260/-</b></p>
+</div>
+</div>
+</div>
+
+<div class="top_rat_pro">
+<div class="container">
+<img src="spaghetti-bolognese.jpg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+</div>
+
+<div class="title">
+<p>Spaghetti Bolognese :<b>310/-</b></p>
+</div>
+</div>
+</div>
+
+
+<div class="top_rat_pro">
+<div class="container">
+<img src="zucchini-slice.jpeg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</div>
+
+<div class="title">
+<p>Zucchini Slice :<b>200/-</b></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="top_rat">
+<div class="top_rat_pro">
+<div class="container">
+<img src="baked-jacket-potatoes.jpeg" class="image" "width:100%" height="80%">
+
+
+<div class="middle">
+    
+<div class="btn">
+<a href="order.html"><input type="button" value="Order Now"></a>
+</div>
+</div>
+
+<div class="starr"> 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</div>
+
+<div class="title">
+<p>Baked Jacket Potatoes :<b>250/-</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<br><hr>
+
+<!-- CODE FOR FOOTER-->
+<br><div class="footer">
+<div class="footerb">
+<b>QUICK LINK</b><br>
+<ul>
+  <br><a class="back" href="popular.html">BACK TO TOP</a><br>
+  <br><a class="back" href="order.html">ORDER NOW</a><br>
+  <br><a class="back" href="About us.html">ABOUT US</a><br>
+  <br><a class="back" href="contact.html">CONTACT US</a><br>
+  <br><a class="back" href="#">HELP</a><br>
+
+</ul>
+
+</div>
+
+
+<div class="footerb">
+<b>FOLLOW  US  ON</b><br>
+<a href="#" class="fa fa-facebook check"></a>
+<a href="#" class="fa fa-google check"></a>
+<a href="#" class="fa fa-linkedin check"></a>
+<a href="#" class="fa fa-instagram check"></a>
+
+<br><br>
+<b>EMAIL: </b> FOODPOINT.@gmail.com
+<br><br>
+<b> MOBILE NO: </b>+923252723986
+
+</div>
+
+<div class="footerb">
+<br><br><br><br><br><br><br>
+All rights are preserved<br>
+Copyright And Copy;2020 Foodpoint. <br>
+Designed By FOODPOINT. TEAM
+</div>
+
+</div>
+
+<!-- END CODE FOR FOOTER-->
+
+
+</body>
+</html>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
